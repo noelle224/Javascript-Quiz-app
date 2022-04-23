@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content=""width=device-width, initial-scale="1.0"
+        />
+        <link rel="stylesheet" href="quiz.css"/>
+        <title>The Quiz App</title>
+        </head>
+        <body>
+           <div class="space">
+               <h3>THE COMPUTER QUIZ APP</h3>
+               <div id="scorecard">
+                   <p>SCORE</p>
+                   <p id="num">0 / 30</p>
+               </div>
+            </div>
+            <button id="start">Click me to Start the Quiz</button>
+           <div class="quiz-container" id="quiz">
+               <div class="quiz-header">
+                   <h3 id="question">What type of virus uses computer hosts to reproduce itself?</h3>
+                   <ul class="list">
+                       <li>
+                           <input type="radio" name="answer" id="a" class="answer">
+                           <label for="a" id="a_text">Worm</label>
+                       </li>
+                       <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">virus</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">files</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">program</label>
+                    </li>
+                   </ul>
+               </div>
+           </div>
+
+           <button id="submit">Submit</button>
+           <button onClick="document.location.reload(true)" id="reload">Reload Quiz</button>
+          
+           <script src="quiz.js"></script>
+        </body>
+</html>

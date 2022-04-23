@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://media2.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.gif');
+    font-family: 'Square Peg', cursive;
+    font-size : 40px;
+    font-weight : bold;
+    display : flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+}
+
+.space{
+    color: white;
+    display: flex;
+}
+
+.quiz-container {
+    background-color: white;
+    width: 50%;
+    opacity: 0;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(51, 9, 235);
+    border-radius: 30px;
+}
+
+.quiz-container h3{
+    margin-left: 20px;
+}
+
+
+.list{
+    list-style: none;
+    margin-left: 0;
+}
+
+button {
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    font-family: 'Square Peg', cursive;
+    font-size : 40px;
+    font-weight : bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+#submit{
+    opacity: 0;
+}
+
+button:hover {
+  background-color: rgb(26, 33, 237);
+}
+
+#scorecard {
+    width: 150px;
+    height: 200px;
+    color: white;
+    background-color: black;
+    margin-left: 890px;
+    border-radius: 20px;
+   align-items: center;
+   text-align: center;
+}
+
+#num{
+    border: 1px solid white;
+    width: 100px;
+    margin-left: 30px;
+}
+
+#start{
+    margin-top: 80px;
+    width: 450px;
+    height: 250px;
+    opacity: 1;
+}
+
+.result{
+    background-color: white;
+}
+
+#reload{
+    opacity: 0;
+}
